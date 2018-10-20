@@ -7,8 +7,7 @@ A collection of common RDF namespaces used in the Solid project.
 ## Usage
 
 ```js
-var rdf = require('rdflib')  // optional
-var vocab = require('solid-namespace')(rdf)  // or require('solid-namespace')()
-console.log(vocab.foaf('name'))  
-// -> NamedNode(<http://xmlns.com/foaf/0.1/name>)
+var vocab = require('solid-namespace')
+console.log(vocab.foaf())  
+// -> NamedNode { termType: 'NamedNode', value: 'http://xmlns.com/foaf/0.1/' }
 ```
