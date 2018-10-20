@@ -1,10 +1,9 @@
 {
   "name": "solid-namespace",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A collection of common RDF namespaces used in the Solid project",
-  "main": "./index.js",
+  "main": "src/index.js",
   "scripts": {
-    "standard": "standard src/*"
   },
   "repository": {
     "type": "git",
@@ -28,7 +27,7 @@
   },
   "homepage": "https://github.com/solid/solid-namespace",
   "dependencies": {
-    "rdf-ns": "^0.1.0"
+    "rdflib": "^0.19.0"
   },
   "devDependencies": {},
   "standard": {
